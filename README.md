@@ -1,14 +1,12 @@
 
-<a href="https://puriravindra412.github.io/Personal-Portfolio" >project link</a>
+<a href="https://kamleshsharma.netlify.app" >project link</a>
 
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
 - VsCode
-- Vercel
+
 
 ## Features
 
