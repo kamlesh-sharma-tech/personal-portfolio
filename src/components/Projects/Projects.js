@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Weather from "../../Assets/Projects/Weather.png";
-import TourRajasthan from "../../Assets/Projects/TourRajasthan.png";
-
-import ChatX from "../../Assets/Projects/ChatX.png";
-
+import Portfolio from "../../Assets/Projects/Portfolio.png";
+import StudentInfo from "../../Assets/Projects/StudentInfoSystem.png";
 
 function Projects() {
   return (
@@ -22,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-
+              imgPath={Portfolio}
               isBlog={false}
               title="Personal Portfolio"
               description="My personal portfolio which features some of my github projects as well as my resume and technical skills."
@@ -34,16 +31,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Weather}
+              imgPath={StudentInfo}
               isBlog={false}
-              title="Weather App"
-              description="online live weather update of any city. Its a single page php application which uses curl api for weather Update . Developed using html , css as frontend and php as backend api integration. "
+              title="Student Info System"
+              description="This is php based Crud Operation project named Student Info System in which we perform crud operations on data like to add or register new student, update student information and delete student etc..."
               ghLink="https://github.com/kamlesh-sharma-tech/"
               demoLink="https://github.com/kamlesh-sharma-tech/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ChatX}
               isBlog={false}
@@ -63,7 +60,7 @@ function Projects() {
               ghLink="https://github.com/kamlesh-sharma-tech/"
               demoLink="https://tourrajasthan.000webhostapp.com/" 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
