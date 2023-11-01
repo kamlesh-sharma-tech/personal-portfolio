@@ -18,6 +18,10 @@ import {
   SiAndroid,
 } from "react-icons/si";
 
+import {
+  FaSalesforce,
+} from "react-icons/fa"
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -59,6 +63,9 @@ function Techstack() {
     </Col>
     <Col xs={4} md={2} className="tech-icons">
         <SiJquery />
+    </Col>
+    <Col xs={4} md={2} className="tech-icons">
+        <FaSalesforce />
     </Col>
       
     </Row>
