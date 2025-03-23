@@ -11,16 +11,17 @@ import agentforceCert from "../../Assets/salesforce_agentforce.png";
 function Certificates() {
   // List of certificates
   const certificates = [
-    { id: 1, title: "Salesforce Admin", img: adminCert },
-    { id: 2, title: "Salesforce AI Associate", img: aiAssociateCert },
-    { id: 3, title: "Salesforce Platform Developer I", img: pd1Cert },
-    { id: 4, title: "Salesforce Data Cloud Consultant", img: dataCloudCert },
-    { id: 5, title: "Salesforce Agentforce Specialist", img: agentforceCert },
+    { id: 1, title: "Salesforce PD-1", img: pd1Cert },
+    { id: 2, title: "Salesforce Administrator", img: adminCert },
+    { id: 3, title: "Salesforce AI Associate", img: aiAssociateCert },
+    { id: 4, title: "Salesforce Agentforce Specialist", img: agentforceCert },
+    { id: 5, title: "Salesforce Data Cloud Consultant", img: dataCloudCert },
+    
   ];
 
   return (
     <Container fluid className="certificate-section">
-      <h1 className="purple" style={{ textAlign: "center", marginBottom: "30px" }}>
+      <h1 className="purple" style={{ textAlign: "center", marginBottom: "30px", marginTop: "50px" }}>
         My Certificates
       </h1>
       <Row>
