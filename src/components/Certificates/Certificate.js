@@ -21,8 +21,8 @@ function Certificates() {
 
   return (
     <Container fluid className="certificate-section">
-      <h1 className="purple" style={{ textAlign: "center", marginBottom: "30px", marginTop: "50px" }}>
-        My Certificates
+      <h1 style={{ textAlign: "center", marginBottom: "30px", marginTop: "70px" }}>
+        My <span className="purple">Certificates</span>
       </h1>
       <Row>
         {certificates.map((cert) => (

@@ -50,8 +50,8 @@
 }
 
 .certificate-item {
-  width: 350px;  /* Adjust card width */
-  height: 400px; /* Adjust card height */
+  width: 400px;  /* Adjust card width */
+  height: 450px; /* Adjust card height */
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
