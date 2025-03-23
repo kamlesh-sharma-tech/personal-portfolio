@@ -19,7 +19,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm Kamlesh Sharma, and i am doing graduation in computer engineering from poornima institute of engineering and technology. 🤷‍♂️
+              I'm Kamlesh Sharma, from Jaipur. I did graduation from Poornima Institute of Engineering and Technology in Computer Science and Engineering with 7.7 CGPA,
+              Currently I'm working in Appsavio Private Limited as a Salesforce Developer. 🤷‍♂️
               <br />
               <br />I am good in programming languages like
               <i>
@@ -34,20 +35,6 @@ function Home2() {
                 <b className="purple">
                   MERN Stack Development.
                 </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing applications
-              in <b className="purple">Android</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
