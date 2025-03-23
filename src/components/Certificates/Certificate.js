@@ -11,7 +11,7 @@ import agentforceCert from "../../Assets/salesforce_agentforce.png";
 function Certificates() {
   // List of certificates
   const certificates = [
-    { id: 1, title: "Salesforce PD-1", img: pd1Cert },
+    { id: 1, title: "Salesforce PD-I", img: pd1Cert },
     { id: 2, title: "Salesforce Administrator", img: adminCert },
     { id: 3, title: "Salesforce AI Associate", img: aiAssociateCert },
     { id: 4, title: "Salesforce Agentforce Specialist", img: agentforceCert },

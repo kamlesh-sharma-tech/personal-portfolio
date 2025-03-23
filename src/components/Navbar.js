@@ -8,6 +8,7 @@ import { CgGitFork } from "react-icons/cg";
 
 import {
   AiFillStar,
+  AiOutlineStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -85,7 +86,7 @@ function NavBar() {
                 to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillStar style={{ marginBottom: "2px" }} /> Certificates
+                <AiOutlineStar style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
 

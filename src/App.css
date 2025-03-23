@@ -46,10 +46,11 @@
 .certificate-card {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .certificate-item {
-  width: 250px;  /* Adjust card width */
+  width: 300px;  /* Adjust card width */
   height: 300px; /* Adjust card height */
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
